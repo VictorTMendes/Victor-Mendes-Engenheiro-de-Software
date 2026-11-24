@@ -101,6 +101,16 @@ export const projects = [
   },
 ];
 
+export const certifications = [
+  {
+    name: "AWS Certified Developer – Associate",
+    issuer: "Amazon Web Services",
+    icon: "aws",
+    status: "in_progress" as const,
+    credentialUrl: null,
+  },
+];
+
 export const experience = [
   {
     company: "Alutal",
